@@ -1,6 +1,7 @@
 package ru.job4j.converter;
 
 import org.junit.jupiter.api.Test;
+import ru.job4j.convertor.Converter;
 
 import static org.assertj.core.api.Assertions.withPrecision;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
