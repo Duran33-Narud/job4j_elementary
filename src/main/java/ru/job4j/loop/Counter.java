@@ -6,8 +6,8 @@ public class Counter {
         if (start > finish) {
             return 0;
         }
-        for (int i = start; i <= finish; i++ ) {
-            sum = sum += i;
+        for (int i = start; i <= finish; i++) {
+            sum += i;
         }
         return sum;
     }
