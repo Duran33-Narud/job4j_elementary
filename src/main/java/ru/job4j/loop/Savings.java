@@ -6,7 +6,7 @@ public class Savings {
         double total = 0;
         do {
             total += annualDeposit;
-            total += total * (percent / 200);
+            total += total * (percent / 100);
             years++;
         } while (total < goal);
         return years;
