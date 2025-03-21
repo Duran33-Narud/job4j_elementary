@@ -2,14 +2,12 @@ package ru.job4j.array;
 
 public class Check {
     public static boolean mono(boolean[] data) {
-        boolean result = true;
         boolean a = data[0];
         for (int i = 1; i < data.length; i++) {
             if (data[i] != a) {
-                result = false;
-                break;
+                return false;
             }
         }
-        return result;
+        return true;
     }
 }
