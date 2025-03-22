@@ -3,8 +3,8 @@ package ru.job4j.array;
 public class ArrayChar {
     public static boolean startsWith(char[] word, char[] prefix) {
         boolean result = true;
-        for (int i = 0; i < word.length - 1; i++) {
-            if (i <= prefix.length - 1 && word[i] != prefix[i]) {
+        for (int i = 0; i < prefix.length; i++) {
+            if (word[i] != prefix[i]) {
                 result = false;
                 break;
             }
