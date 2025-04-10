@@ -22,4 +22,12 @@ class EqualLastTest {
         boolean result = EqualLast.check(left, right);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void whenEqEmpty() {
+        int[] left = {};
+        int[] right = {1, 2, 3};
+        boolean result = EqualLast.check(left, right);
+        assertThat(result).isFalse();
+    }
 }
